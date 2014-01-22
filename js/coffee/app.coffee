@@ -1,9 +1,7 @@
 require.config {
-	path:{
-		'jquery':'js/lib/jquery.js'
+	paths:{
+		'jquery':'lib/jquery'
 	}
 }
-
-a=5
-
+ 
 require ['./main']
